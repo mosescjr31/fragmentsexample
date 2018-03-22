@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
             FragmentTransaction ft = fm.beginTransaction();
             ft.replace(R.id.fragment_place,fragment);
             ft.commit();
+            //just testing
         }
     }
 }
